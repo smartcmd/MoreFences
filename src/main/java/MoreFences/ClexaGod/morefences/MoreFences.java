@@ -4,6 +4,7 @@ import org.allaymc.api.block.type.BlockType;
 import org.allaymc.api.item.ItemStack;
 import org.allaymc.api.item.creative.CreativeItemCategory;
 import org.allaymc.api.item.creative.CreativeItemGroup;
+import org.allaymc.api.item.creative.CreativeItemGroups;
 import org.allaymc.api.item.recipe.ShapedRecipe;
 import org.allaymc.api.item.recipe.descriptor.ItemDescriptor;
 import org.allaymc.api.item.recipe.descriptor.ItemTypeDescriptor;
@@ -93,10 +94,10 @@ public class MoreFences extends Plugin {
         }
 
         CreativeItemCategory construction = Registries.CREATIVE_ITEMS.getConstructionCategory();
-        CreativeItemGroup group = construction.getNamedGroup("itemGroup.name.fence");
+        CreativeItemGroup group = construction.getNamedGroup(CreativeItemGroups.FENCE);
         if (group == null) {
             ItemStack icon = fenceTypes.values().iterator().next().getItemType().createItemStack();
-            group = construction.registerGroup("itemGroup.name.fence", icon);
+            group = construction.registerGroup(CreativeItemGroups.FENCE, icon);
         }
 
         for (var type : fenceTypes.values()) {
