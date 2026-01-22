@@ -65,9 +65,7 @@ public class MoreFences extends Plugin {
                             .boneVisibility("west", FenceProperties.WEST)
                             .build()
                     )
-                    .materials(Materials.builder()
-                            .any(MaterialInstance.alphaTest(def.textureKey()))
-                            .build())
+                    .materials(Materials.builder().any(MaterialInstance.alphaTest(def.textureKey())))
                     .displayName(def.displayNameKey(NAMESPACE))
                     .build();
 
