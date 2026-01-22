@@ -1,0 +1,30 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Made By ClexaGod",
+    "name": "More Fences RP ClexaGod",
+    "uuid": "9facd2bf-0846-42a5-8d9d-e71766cda87b",
+    "version": [
+      0,
+      0,
+      1
+    ],
+    "min_engine_version": [
+      1,
+      17,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "Made By ClexaGod",
+      "type": "resources",
+      "uuid": "950f0ca7-19c4-4bbc-ba46-2b09e5f5be8f",
+      "version": [
+        0,
+        0,
+        1
+      ]
+    }
+  ]
+}

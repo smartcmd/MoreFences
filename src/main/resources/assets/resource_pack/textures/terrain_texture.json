@@ -1,0 +1,588 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "flappyguy_diamond_fence": {
+      "textures": [
+        "textures/blocks/diamond_block"
+      ]
+    },
+    "flappyguy_brick_fence": {
+      "textures": [
+        "textures/blocks/brick"
+      ]
+    },
+    "flappyguy_iron_fence": {
+      "textures": [
+        "textures/blocks/iron_block"
+      ]
+    },
+    "flappyguy_netherrack_fence": {
+      "textures": [
+        "textures/blocks/netherrack"
+      ]
+    },
+    "flappyguy_gold_fence": {
+      "textures": [
+        "textures/blocks/gold_block"
+      ]
+    },
+    "flappyguy_dirt_fence": {
+      "textures": [
+        "textures/blocks/dirt"
+      ]
+    },
+    "flappyguy_cobblestone_fence": {
+      "textures": [
+        "textures/blocks/cobblestone"
+      ]
+    },
+    "flappyguy_quartz_fence": {
+      "textures": [
+        "textures/blocks/quartz_block_bottom"
+      ]
+    },
+    "flappyguy_dripstone_fence": {
+      "textures": [
+        "textures/blocks/dripstone_block"
+      ]
+    },
+    "flappyguy_amethyst_fence": {
+      "textures": [
+        "textures/blocks/amethyst_block"
+      ]
+    },
+    "flappyguy_mud_fence": {
+      "textures": [
+        "textures/blocks/packed_mud"
+      ]
+    },
+    "flappyguy_white_wool": {
+      "textures": [
+        "textures/blocks/wool_colored_white"
+      ]
+    },
+    "flappyguy_light_gray_wool": {
+      "textures": [
+        "textures/blocks/wool_colored_silver"
+      ]
+    },
+    "flappyguy_gray_wool": {
+      "textures": [
+        "textures/blocks/wool_colored_gray"
+      ]
+    },
+    "flappyguy_black_wool": {
+      "textures": [
+        "textures/blocks/wool_colored_black"
+      ]
+    },
+    "flappyguy_brown_wool": {
+      "textures": [
+        "textures/blocks/wool_colored_brown"
+      ]
+    },
+    "flappyguy_red_wool": {
+      "textures": [
+        "textures/blocks/wool_colored_red"
+      ]
+    },
+    "flappyguy_orange_wool": {
+      "textures": [
+        "textures/blocks/wool_colored_orange"
+      ]
+    },
+    "flappyguy_yellow_wool": {
+      "textures": [
+        "textures/blocks/wool_colored_yellow"
+      ]
+    },
+    "flappyguy_lime_wool": {
+      "textures": [
+        "textures/blocks/wool_colored_lime"
+      ]
+    },
+    "flappyguy_green_wool": {
+      "textures": [
+        "textures/blocks/wool_colored_green"
+      ]
+    },
+    "flappyguy_cyan_wool": {
+      "textures": [
+        "textures/blocks/wool_colored_cyan"
+      ]
+    },
+    "flappyguy_light_blue_wool": {
+      "textures": [
+        "textures/blocks/wool_colored_light_blue"
+      ]
+    },
+    "flappyguy_blue_wool": {
+      "textures": [
+        "textures/blocks/wool_colored_blue"
+      ]
+    },
+    "flappyguy_purple_wool": {
+      "textures": [
+        "textures/blocks/wool_colored_purple"
+      ]
+    },
+    "flappyguy_magenta_wool": {
+      "textures": [
+        "textures/blocks/wool_colored_magenta"
+      ]
+    },
+    "flappyguy_pink_wool": {
+      "textures": [
+        "textures/blocks/wool_colored_pink"
+      ]
+    },
+    "flappyguy_white_concrete": {
+      "textures": [
+        "textures/blocks/concrete_white"
+      ]
+    },
+    "flappyguy_light_gray_concrete": {
+      "textures": [
+        "textures/blocks/concrete_silver"
+      ]
+    },
+    "flappyguy_gray_concrete": {
+      "textures": [
+        "textures/blocks/concrete_gray"
+      ]
+    },
+    "flappyguy_black_concrete": {
+      "textures": [
+        "textures/blocks/concrete_black"
+      ]
+    },
+    "flappyguy_brown_concrete": {
+      "textures": [
+        "textures/blocks/concrete_brown"
+      ]
+    },
+    "flappyguy_red_concrete": {
+      "textures": [
+        "textures/blocks/concrete_red"
+      ]
+    },
+    "flappyguy_orange_concrete": {
+      "textures": [
+        "textures/blocks/concrete_orange"
+      ]
+    },
+    "flappyguy_yellow_concrete": {
+      "textures": [
+        "textures/blocks/concrete_yellow"
+      ]
+    },
+    "flappyguy_lime_concrete": {
+      "textures": [
+        "textures/blocks/concrete_lime"
+      ]
+    },
+    "flappyguy_green_concrete": {
+      "textures": [
+        "textures/blocks/concrete_green"
+      ]
+    },
+    "flappyguy_cyan_concrete": {
+      "textures": [
+        "textures/blocks/concrete_cyan"
+      ]
+    },
+    "flappyguy_light_blue_concrete": {
+      "textures": [
+        "textures/blocks/concrete_light_blue"
+      ]
+    },
+    "flappyguy_blue_concrete": {
+      "textures": [
+        "textures/blocks/concrete_blue"
+      ]
+    },
+    "flappyguy_purple_concrete": {
+      "textures": [
+        "textures/blocks/concrete_purple"
+      ]
+    },
+    "flappyguy_magenta_concrete": {
+      "textures": [
+        "textures/blocks/concrete_magenta"
+      ]
+    },
+    "flappyguy_pink_concrete": {
+      "textures": [
+        "textures/blocks/concrete_pink"
+      ]
+    },
+    "flappyguy_glowstone_fence": {
+      "textures": [
+        "textures/blocks/glowstone"
+      ]
+    },
+    "flappyguy_endstone_fence": {
+      "textures": [
+        "textures/blocks/end_stone"
+      ]
+    },
+    "flappyguy_shroomlight_fence": {
+      "textures": [
+        "textures/blocks/shroomlight"
+      ]
+    },
+    "flappyguy_calcite_fence": {
+      "textures": [
+        "textures/blocks/calcite"
+      ]
+    },
+    "flappyguy_sandstone_fence": {
+      "textures": [
+        "textures/blocks/sandstone_top"
+      ]
+    },
+    "flappyguy_bedrock_fence": {
+      "textures": [
+        "textures/blocks/bedrock"
+      ]
+    },
+    "flappyguy_netherite_fence": {
+      "textures": [
+        "textures/blocks/netherite_block"
+      ]
+    },
+    "flappyguy_resin_fence": {
+      "textures": [
+        "textures/blocks/resin_block"
+      ]
+    },
+    "flappyguy_lapis_lazuli_fenceby78": {
+      "textures": [
+        "textures/blocks/lapis_block"
+      ]
+    },
+    "flappyguy_muddy_fence": {
+      "textures": [
+        "textures/blocks/mud"
+      ]
+    },
+    "flappyguy_basalt_fence": {
+      "textures": [
+        "textures/blocks/smooth_basalt"
+      ]
+    },
+    "flappyguy_snow_fence": {
+      "textures": [
+        "textures/blocks/snow"
+      ]
+    },
+    "flappyguy_sculk_fence": {
+      "textures": [
+        "textures/blocks/sculk_sensor_bottom"
+      ]
+    },
+    "flappyguy_moss_fence": {
+      "textures": [
+        "textures/blocks/moss_block"
+      ]
+    },
+    "flappyguy_blackstone_fence": {
+      "textures": [
+        "textures/blocks/blackstone"
+      ]
+    },
+    "flappyguy_soul_soil_fence": {
+      "textures": [
+        "textures/blocks/soul_soil"
+      ]
+    },
+    "flappyguy_tuff_fence": {
+      "textures": [
+        "textures/blocks/tuff"
+      ]
+    },
+    "flappyguy_crying_obsidian_fence": {
+      "textures": [
+        "textures/blocks/crying_obsidian"
+      ]
+    },
+    "flappyguy_emerald_fence": {
+      "textures": [
+        "textures/blocks/emerald_block"
+      ]
+    },
+    "flappyguy_prismarine_fence": {
+      "textures": [
+        "textures/blocks/prismarine_bricks"
+      ]
+    },
+    "flappyguy_coal_fence": {
+      "textures": [
+        "textures/blocks/coal_block"
+      ]
+    },
+    "flappyguy_pearlescent_froglight_fence": {
+      "textures": [
+        "textures/blocks/pearlescent_froglight_side"
+      ]
+    },
+    "flappyguy_ochre_froglight_fence": {
+      "textures": [
+        "textures/blocks/ochre_froglight_side"
+      ]
+    },
+    "flappyguy_verdant_froglight_fence": {
+      "textures": [
+        "textures/blocks/verdant_froglight_side"
+      ]
+    },
+    "flappyguy_green_bamboo_fence": {
+      "textures": [
+        "textures/blocks/bamboo_block"
+      ]
+    },
+    "flappyguy_stonebrick_fence": {
+      "textures": [
+        "textures/blocks/stonebrick"
+      ]
+    },
+    "flappyguy_raw_iron_block_fence": {
+      "textures": [
+        "textures/blocks/raw_iron_block"
+      ]
+    },
+    "flappyguy_raw_gold_block_fence": {
+      "textures": [
+        "textures/blocks/raw_gold_block"
+      ]
+    },
+    "flappyguy_raw_copper_block_fence": {
+      "textures": [
+        "textures/blocks/raw_copper_block"
+      ]
+    },
+    "flappyguy_obsidian_fence": {
+      "textures": [
+        "textures/blocks/obsidian"
+      ]
+    },
+    "flappyguy_ice_fence": {
+      "textures": [
+        "textures/blocks/ice"
+      ]
+    },
+    "calcite": {
+      "textures": [
+        "textures/blocks/calcite"
+      ]
+    },
+    "concrete_black": {
+      "textures": [
+        "textures/blocks/concrete_black"
+      ]
+    },
+    "concrete_blue": {
+      "textures": [
+        "textures/blocks/concrete_blue"
+      ]
+    },
+    "concrete_brown": {
+      "textures": [
+        "textures/blocks/concrete_brown"
+      ]
+    },
+    "concrete_cyan": {
+      "textures": [
+        "textures/blocks/concrete_cyan"
+      ]
+    },
+    "concrete_gray": {
+      "textures": [
+        "textures/blocks/concrete_gray"
+      ]
+    },
+    "concrete_green": {
+      "textures": [
+        "textures/blocks/concrete_green"
+      ]
+    },
+    "concrete_light_blue": {
+      "textures": [
+        "textures/blocks/concrete_light_blue"
+      ]
+    },
+    "concrete_light_gray": {
+      "textures": [
+        "textures/blocks/concrete_silver"
+      ]
+    },
+    "concrete_lime": {
+      "textures": [
+        "textures/blocks/concrete_lime"
+      ]
+    },
+    "concrete_magenta": {
+      "textures": [
+        "textures/blocks/concrete_magenta"
+      ]
+    },
+    "concrete_orange": {
+      "textures": [
+        "textures/blocks/concrete_orange"
+      ]
+    },
+    "concrete_pink": {
+      "textures": [
+        "textures/blocks/concrete_pink"
+      ]
+    },
+    "concrete_purple": {
+      "textures": [
+        "textures/blocks/concrete_purple"
+      ]
+    },
+    "concrete_red": {
+      "textures": [
+        "textures/blocks/concrete_red"
+      ]
+    },
+    "concrete_white": {
+      "textures": [
+        "textures/blocks/concrete_white"
+      ]
+    },
+    "concrete_yellow": {
+      "textures": [
+        "textures/blocks/concrete_yellow"
+      ]
+    },
+    "flappyguy_hay_fence": {
+      "textures": [
+        "textures/blocks/hay_block_side"
+      ]
+    },
+    "flappyguy_purpur_fence": {
+      "textures": [
+        "textures/blocks/purpur_block"
+      ]
+    },
+    "mud": {
+      "textures": [
+        "textures/blocks/mud"
+      ]
+    },
+    "raw_copper_block": {
+      "textures": [
+        "textures/blocks/raw_copper_block"
+      ]
+    },
+    "raw_gold_block": {
+      "textures": [
+        "textures/blocks/raw_gold_block"
+      ]
+    },
+    "raw_iron_block": {
+      "textures": [
+        "textures/blocks/raw_iron_block"
+      ]
+    },
+    "sculk_sensor_bottom.png": {
+      "textures": [
+        "textures/blocks/sculk_sensor_bottom"
+      ]
+    },
+    "smooth_basalt": {
+      "textures": [
+        "textures/blocks/smooth_basalt"
+      ]
+    },
+    "stone_granite_smooth": {
+      "textures": [
+        "textures/blocks/stone_granite_smooth"
+      ]
+    },
+    "wool_colored_black": {
+      "textures": [
+        "textures/blocks/wool_colored_black"
+      ]
+    },
+    "wool_colored_blue": {
+      "textures": [
+        "textures/blocks/wool_colored_blue"
+      ]
+    },
+    "wool_colored_brown": {
+      "textures": [
+        "textures/blocks/wool_colored_brown"
+      ]
+    },
+    "wool_colored_cyan": {
+      "textures": [
+        "textures/blocks/wool_colored_cyan"
+      ]
+    },
+    "wool_colored_gray": {
+      "textures": [
+        "textures/blocks/wool_colored_gray"
+      ]
+    },
+    "wool_colored_green": {
+      "textures": [
+        "textures/blocks/wool_colored_green"
+      ]
+    },
+    "wool_colored_light_blue": {
+      "textures": [
+        "textures/blocks/wool_colored_light_blue"
+      ]
+    },
+    "wool_colored_light_gray": {
+      "textures": [
+        "textures/blocks/wool_colored_silver"
+      ]
+    },
+    "wool_colored_lime": {
+      "textures": [
+        "textures/blocks/wool_colored_lime"
+      ]
+    },
+    "wool_colored_magenta": {
+      "textures": [
+        "textures/blocks/wool_colored_magenta"
+      ]
+    },
+    "wool_colored_orange": {
+      "textures": [
+        "textures/blocks/wool_colored_orange"
+      ]
+    },
+    "wool_colored_pink": {
+      "textures": [
+        "textures/blocks/wool_colored_pink"
+      ]
+    },
+    "wool_colored_purple": {
+      "textures": [
+        "textures/blocks/wool_colored_purple"
+      ]
+    },
+    "wool_colored_red": {
+      "textures": [
+        "textures/blocks/wool_colored_red"
+      ]
+    },
+    "wool_colored_white": {
+      "textures": [
+        "textures/blocks/wool_colored_white"
+      ]
+    },
+    "wool_colored_yellow": {
+      "textures": [
+        "textures/blocks/wool_colored_yellow"
+      ]
+    }
+  }
+}
