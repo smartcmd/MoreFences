@@ -79,7 +79,7 @@ public class MoreFences extends Plugin {
                             FenceProperties.EAST,
                             FenceProperties.WEST
                     )
-                    .addComponent(BlockStateDataComponentImpl.ofDirectDynamic(FenceStateData::fromState))
+                    .addComponent(BlockStateDataComponentImpl.ofCachedDynamic(FenceStateData::fromState))
                     .blockDefinitionGenerator(CustomBlockDefinitionGenerator.ofConstant(definition))
                     .build();
 
