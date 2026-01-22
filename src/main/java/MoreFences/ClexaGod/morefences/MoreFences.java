@@ -16,31 +16,16 @@ import org.allaymc.server.block.type.BlockStateDefinition;
 import org.allaymc.server.block.type.BlockStateDefinition.MaterialInstance;
 import org.allaymc.server.block.type.BlockStateDefinition.Materials;
 import org.allaymc.server.block.type.CustomBlockDefinitionGenerator;
-import org.cloudburstmc.nbt.NbtMap;
 
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
 public class MoreFences extends Plugin {
+
     public static final String NAMESPACE = "ClexaGod";
 
     private static final String GEOMETRY_ID = "geometry.custom_fence";
-
-    private static final Map<String, NbtMap> GEOMETRY_COMPONENT = Map.of(
-            "minecraft:geometry",
-            NbtMap.builder()
-                    .putString("identifier", GEOMETRY_ID)
-                    .putCompound("bone_visibility", NbtMap.builder()
-                            .putString("pole", "q.block_state('pa:in_world')")
-                            .putString("inventory", "!q.block_state('pa:in_world')")
-                            .putString("east", "q.block_state('pa:east')")
-                            .putString("north", "q.block_state('pa:north')")
-                            .putString("west", "q.block_state('pa:west')")
-                            .putString("south", "q.block_state('pa:south')")
-                            .build())
-                    .build()
-    );
 
     private final Map<Identifier, BlockType<?>> fenceTypes = new LinkedHashMap<>();
 
@@ -69,7 +54,16 @@ public class MoreFences extends Plugin {
             Identifier id = new Identifier(NAMESPACE, def.path());
 
             var definition = BlockStateDefinition.builder()
-                    .geometry(GEOMETRY_ID)
+                    .geometry(BlockStateDefinition.Geometry.builder()
+                            .identifier(GEOMETRY_ID)
+                            .boneVisibility("pole", FenceProperties.IN_WORLD)
+                            .boneVisibility("inventory", FenceProperties.IN_WORLD, false)
+                            .boneVisibility("north", FenceProperties.NORTH)
+                            .boneVisibility("south", FenceProperties.SOUTH)
+                            .boneVisibility("east", FenceProperties.EAST)
+                            .boneVisibility("west", FenceProperties.WEST)
+                            .build()
+                    )
                     .materials(Materials.builder()
                             .any(MaterialInstance.alphaTest(def.textureKey()))
                             .build())
@@ -86,7 +80,7 @@ public class MoreFences extends Plugin {
                             FenceProperties.WEST
                     )
                     .addComponent(BlockStateDataComponentImpl.ofDirectDynamic(FenceStateData::fromState))
-                    .blockDefinitionGenerator(CustomBlockDefinitionGenerator.of(state -> definition, GEOMETRY_COMPONENT))
+                    .blockDefinitionGenerator(CustomBlockDefinitionGenerator.ofConstant(definition))
                     .build();
 
             fenceTypes.put(id, type);
