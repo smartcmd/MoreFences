@@ -35,10 +35,10 @@ public final class FenceShapes {
             builder.solid(BAR_MIN, 0.0, BAR_START, BAR_MAX, maxY, 1.0);
         }
         if (west) {
-            builder.solid(0.0, 0.0, BAR_MIN, BAR_END, maxY, BAR_MAX);
+            builder.solid(BAR_START, 0.0, BAR_MIN, 1.0, maxY, BAR_MAX);
         }
         if (east) {
-            builder.solid(BAR_START, 0.0, BAR_MIN, 1.0, maxY, BAR_MAX);
+            builder.solid(0.0, 0.0, BAR_MIN, BAR_END, maxY, BAR_MAX);
         }
 
         return builder.build();
